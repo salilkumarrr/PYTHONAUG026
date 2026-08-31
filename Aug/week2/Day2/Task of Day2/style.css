@@ -1,0 +1,32 @@
+body {
+  background-color: #f5f5fa;
+}
+
+.parent {
+  width: 90%;
+}
+
+.parent p {
+  font-family: Arial;
+  font-size: 50px;
+}
+
+.orange {
+  color: orange;
+  font-weight: 600;
+}
+
+.normal {
+  color: #15152f;
+  font-weight: 400;
+}
+
+.blue {
+  color: #4169e1;
+  font-weight: 600;
+}
+
+.purple {
+  color: #7b3fe4;
+  font-weight: 600;
+}
