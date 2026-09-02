@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.card {
+    width: 370px;
+    height: 410px;
+    background-color: #e8e5ff;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.card h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.card p {
+    font-size: 29px;
+    line-height: 1.65;
+}
