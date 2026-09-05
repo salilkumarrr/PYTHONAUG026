@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  border: 5px solid red;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 2s ease;
+  /* position: absolute;
+    top: 20px;
+    left: 100%; */
+  /* position: relative;
+    top: 50px; */
+  /* position: fixed;
+    right: 0px;
+    z-index: 1; */
+
+  animation: color_change 2s ease  steps(5);
+}
+
+/* .para-1{
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+.para-2{
+    background-color: aqua;
+} */
+
+.box:hover {
+  background-color: green;
+  color: white;
+  /* transform: rotateY(180deg); */
+
+  /* transform: scale(2,3); */
+  /* transform-origin: bottom; */
+  /* transform: skewY(45deg); */
+
+  /* transform: translate(200px); */
+}
+
+.box-container {
+  width: 400px;
+  height: 200px;
+  border: 2px solid blue;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 5px; */
+  overflow-y: scroll;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+}
+
+/* @media (max-width: 465px) {
+  .box-container {
+    background-color: red;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 465px) and (max-width: 768px) {
+  .box-container {
+    background-color: yellow;
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
+
+/* @keyframes color_change {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: chartreuse;
+  }
+} */
+@keyframes color_change {
+  0%{
+    background-color: red;
+  }
+
+  25%{
+    background-color: crimson;
+  }
+
+  50%{
+    background-color: darkorange;
+  }
+
+  75%{
+    background-color: fuchsia;
+  }
+  100%{
+    background-color: red;
+  }
+}

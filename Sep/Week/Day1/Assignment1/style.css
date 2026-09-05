@@ -88,8 +88,7 @@ body {
     color: #777;
 }
 
-.options a,
-.signup a {
+.options a,.signup a {
     color: #9be32f;
     text-decoration: none;
 }
