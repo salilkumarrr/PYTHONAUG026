@@ -1,0 +1,7 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:#fffdf9;color:#56362f;font-family:'DM Sans',sans-serif}
+a{text-decoration:none;color:inherit}
+button,input,textarea{font:inherit}
+button{cursor:pointer}
+.container{width:min(1160px,calc(100% - 48px));margin-inline:auto}
