@@ -1,0 +1,1 @@
+import React,{useEffect} from "react";import {useAuth} from "../lib/auth";export default function Toast(){const {toast,setToast}=useAuth();useEffect(()=>{if(toast){const t=setTimeout(()=>setToast(null),3500);return()=>clearTimeout(t)}},[toast]);return toast?<div className={"toast "+(toast.type||"success")}>{toast.message}</div>:null}
