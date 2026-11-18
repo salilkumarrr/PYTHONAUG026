@@ -135,12 +135,14 @@ print(result)
 # print(result)
 
 def voting_eligibility(age):
-    if age >= 18:
+    if age <= 18:
+        return "Not eligible for voting"
+    elif age == 18:
         return "Just 18"
     else:
-        return "Not eligible for voting"
+        return "eligible for voting"
 
-result = voting_eligibility(18)
+result = voting_eligibility(20)
 print(result)
 
 
@@ -203,6 +205,6 @@ our_even_odd(numbers)
 
 def _5ja(n):
     for i in range(1, 11):
-        print(n, "x", i, "=", n * i)
+        print(n, "x", i, "=", n * i) 
 
 _5ja(5)
