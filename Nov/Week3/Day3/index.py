@@ -1,35 +1,77 @@
-# #oop
-# #class
+# OOP 
+# Class and Object
+# Method
+# Constructor
 
-# class Employee:
-#     name = "Salil"
+# class Employee:       # Class (Blue print)
+#     name = "Rahul"
 #     emp_id = 1
 #     salary = 50000
 #     dept = "IT"
-
-# emp1 = Employee()
-# emp2 = Employee()
+    
+# emp1 = Employee()  
+# emp2 = Employee()  
 
 # print(emp1.name)
 # print(emp1.emp_id)
 # print(emp1.salary)
 # print(emp1.dept)
-
-# print("----------")
-
+# print("---------")
 # print(emp2.name)
 
-# method
 
+
+# Method 
 # class Mobile:
-#     brand = "iPhone"
+#     brand = "IPhone"
 #     price = 100000
-
+    
 #     def Ringing(self):
-#         print("Incoming call")
+#         # print("Incomming call", self.brand)
+#         return "Incomming call.."
+        
+#     def Notification(self):        # Method
+#         print("1 notification")    
+        
+# mobile1 = Mobile()   
+ 
+# print(mobile1.price)
+# mobile1.Ringing()
+# print(mobile1.Ringing())
 
 
+# class Employee:
+#     name = "Rahul"
+#     salary = 50000
+    
+    
+#     def __init__(self):
+#         self.address = "BBSR"
+#         print("Constructor 1")   
 
+# emp1 = Employee()
+
+# print(emp1.name)
+# print(emp1.address)
+
+        
+# class Employee:                                 # Class
+#     def __init__(self,name,salary,address):     # Constructor
+#         self.name = name
+#         self.salary = salary
+#         self.address = address
+    
+#     def EmployeeDetails(self):                  # Method
+#         print("Emplee Name" , self.name)
+#         print("Emplee Salary" , self.salary)
+#         print("Emplee Address" , self.salary)
+        
+
+# e1 = Employee(name="Sonali", salary=50000,address="BBSR")        
+# e2 = Employee(name="Sushree", salary=50000, address="Delhi")        
+
+# e1.EmployeeDetails()              
+# print(e2.address)        
 
 # class Employee:
 
@@ -105,5 +147,5 @@ print(user1.deposit(2000))
 
 print(user1.withdraw(1000))
 
-print(user1.view_balance())
+print(user1.view_balance()) 
 
